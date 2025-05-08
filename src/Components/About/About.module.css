@@ -1,5 +1,6 @@
 .about_wrapper {
     flex-direction: row;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
 }
 
 .about_img {

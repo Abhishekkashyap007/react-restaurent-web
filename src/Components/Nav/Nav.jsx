@@ -32,11 +32,11 @@ function Nav() {
 
       <ul ref={menu}>
         <li><a href='#'>Home</a></li>
-        <li><a href='#'>About Us</a></li>
-        <li><a href='#'>Services</a></li>
-        <li><a href='#'>Rooms</a></li>
-        <li><a href='#'>View Point</a></li>
-        <li><a href='#'>Contact Us</a></li>
+        <li><a href='#aboutus'>About Us</a></li>
+        <li><a href='#services'>Services</a></li>
+        <li><a href='#rooms'>Rooms</a></li>
+        <li><a href='#viewpoint'>View Point</a></li>
+        <li><a href='#contactus'>Contact Us</a></li>
       </ul>
 
       <div className={navCSS.Nav_btns}>

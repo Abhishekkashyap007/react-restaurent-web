@@ -4,7 +4,7 @@ import logoImg from '../../../public/logo.png'
 
 function Footer() {
     return (
-        <footer className={`${footerCSS.footer_wrapper} section`}>
+        <footer id='contactus' className={`${footerCSS.footer_wrapper} section`}>
             <div className={footerCSS.FooterLinks}>
                 <div className={footerCSS.logo}>
                     <a href='#'><img src={logoImg}></img></a>

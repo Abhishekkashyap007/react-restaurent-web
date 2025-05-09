@@ -3,7 +3,7 @@ import ServicesCSS from './../Services/Services.module.css'
 
 function Services() {
     return (
-        <div className={`${ServicesCSS.Service_wrapper} section`}>
+        <div id='services' className={`${ServicesCSS.Service_wrapper} section`}>
             <small className='section_Heading'>Facilities</small>
             <h2 className='section_Title'>Our Best <span>Services</span></h2>
 

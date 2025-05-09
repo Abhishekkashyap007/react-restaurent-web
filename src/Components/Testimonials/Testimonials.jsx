@@ -13,7 +13,7 @@ import img5 from './../../assets/musium.jpg'
 
 function Testimonials() {
     return (
-        <div className={`${testimonialCSS.testimonial_wrapper} section`}>
+        <div id='viewpoint' className={`${testimonialCSS.testimonial_wrapper} section`}>
             <small className='section_Heading'>View Points</small>
             <h2 className='section_Title'>Near <span>Dhikuli</span></h2>
             <Swiper

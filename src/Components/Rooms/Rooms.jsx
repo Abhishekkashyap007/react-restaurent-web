@@ -3,7 +3,7 @@ import roomsCSS from './../Rooms/Rooms.module.css'
 
 function Rooms() {
     return (
-        <div className={`${roomsCSS.Rooms_container} section`}>
+        <div id='rooms' className={`${roomsCSS.Rooms_container} section`}>
             <small className='section_Heading'>Luxury Suites</small>
             <h2 className='section_Title'>Our Best <span>Rooms</span></h2>
 
